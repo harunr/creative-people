@@ -1,0 +1,35 @@
+
+.btn { letter-spacing: .1125rem; font-size: .75rem; cursor: pointer; line-height: 25px;}
+.btn-outline-new-white:hover { color: #212529!important; background-color: #fff; }
+.btn-brand { background-color: #505cfd; border-color: #505cfd; }
+.btn-brand:hover {  background-color: #2a39fd; border-color: #2a39fd; }
+.hero-bg img{object-fit: cover; object-position: bottom;}
+.hero-bg:after{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #333; content: ''; opacity: 0.6;}
+.icon-box div img{transition: .45s ease-in-out;}
+.icon-box:hover div img{transform: translateY(-10px);}
+.item-content{bottom: -84px; transition: .35s ease-in-out;}
+.item-thumb{transition: .35s ease-in-out; top: 0;}
+.item:hover .item-thumb{top: -84px;}
+.item:hover .item-content{bottom: 0;}
+.icon-box-img{transition: .35s ease-in-out;}
+.icon-box:hover .icon-box-img{transform: translateY(-10px);}
+.bg-gray{background-color: #f8f8f8;}
+.team-content{background-color: rgba(34, 34, 34, .6); top: 0; left: 0; opacity: 0; visibility: hidden; transition: .45s ease-in-out;}
+.team-item{box-shadow: 0 0 0 rgb(0 0 0 / 10%); transition: .45s ease-in-out; overflow: hidden;}
+.team-item:hover{box-shadow: 0 8px 24px rgb(0 0 0 / 10%);}
+.team-item:hover .team-content{opacity: 1; visibility: visible;}
+.team-thumb img{transition: transform 2.8s cubic-bezier(.23,1,.32,1),-webkit-transform 2.8s cubic-bezier(.23,1,.32,1);}
+.team-item:hover .team-thumb img{transform: scale(1.1);}
+
+.about-hero-wrap{min-height: 600px;}
+.arrow-list li:before { position: absolute; top: 8px; left: 0; width: 10px; height: 10px; content: ""; border: 1px solid #000000; border-top: none; border-left: none; transform: rotate( -45deg); }
+
+/* .z-1{z-index: 1;}
+.z-2{z-index: 2;} */
+
+.about-happy-client{min-height: 330px;}
+.about-happy-client-bg{z-index: -1;}
+.about-happy-client-bg:after{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #333; content: ''; opacity: 0.6;}
+.about-happy-client-bg img{object-fit: cover;}
+.space{margin-top: -100px;}
+
